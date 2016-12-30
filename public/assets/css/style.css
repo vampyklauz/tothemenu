@@ -1,0 +1,97 @@
+
+/* Container */
+
+/* MARGIN */
+.m-x-auto{ margin: 0 auto; }
+.m-top-40{ margin-top: 40px; }
+.m-top-20{ margin-top: 20px; }
+.no-m-h{ margin-left: 0; margin-right: 0; }
+
+/* PADDING */
+.p-h-15{ margin-right: 15px; margin-left: 15px; }
+
+/* EFFECT */
+.ls-no-style{ list-style: none; }
+.d-block{ display: block; }
+.d-inline-block{ display: inline-block; }
+.capitalize{ text-transform: capitalize; }
+
+/* ========== Page Sidebar ============== */
+.page-sidebar ul{ 
+	font-size: 14px;
+	list-style: none;
+	text-decoration: none;
+}
+.page-sidebar ul li a{
+	line-height: 24px;
+}
+.page-sidebar ul li a:hover{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* ========= Main Menu =================== */
+.main-menu{
+	float: left;
+	margin-right: 10px;
+}
+
+.main-menu ul{
+	display: inline-block;
+	margin: 0;
+	list-style: none;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.main-menu ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.main-menu ul li a:hover{
+	color: #e3e3e3;
+	text-decoration: none;
+}
+
+/* ======== Nav Header =============== */
+#nav-search form button{
+	padding: 2px 4px;
+	top: -2px; 
+}
+#nav-search{
+	float: right;
+	right: 0;
+    line-height: 24px;
+    padding-right: 5px;
+    position: relative;
+}
+
+/* ======== ITEMS ============ */
+.item-wrap a{
+	text-decoration: none;
+}
+
+.item-wrap ul{
+	margin: 0;
+}
+
+.item-wrap ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+    max-width: 125px;
+}
+
+/* ========== Restraurant ============== */
+.restaurant-owl{ min-width: 350px; max-width: 400px; }
+.restaurant-owl .owl-prev{ left: -50px; position: absolute; top: 40% }
+.restaurant-owl .owl-next{ right: -50px; position: absolute; top: 40% }
+
+.map-wrap img{ max-width: 100% }
+
+/* ======= OVERIDE =========== */
+.profile-info-name{ width: 140px; }

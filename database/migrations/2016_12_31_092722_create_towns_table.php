@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddingAccessToUsers extends Migration
+class CreateTownsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,8 +12,11 @@ class AddingAccessToUsers extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('access')->after('password');
+        Schema::create('towns', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name',125);
+            $table->tinyInteger('updated_by');
+            $table->timestamps();
         });
     }
 
@@ -24,8 +27,6 @@ class AddingAccessToUsers extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-        });
+        Schema::drop('towns');
     }
 }

@@ -1,0 +1,2120 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"Int",
+				"integer"
+			],
+			[
+				"county",
+				"county_message"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"user",
+				"user_level"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"count",
+				"county"
+			],
+			[
+				"coun",
+				"county"
+			],
+			[
+				"co",
+				"compact"
+			],
+			[
+				"cou",
+				"county"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"rea",
+				"restaurant-owl"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"brand",
+				"brand-success"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bran",
+				"brand-success"
+			],
+			[
+				"en",
+				"enterprise"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"f",
+				"fixed"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"spe",
+				"spent"
+			],
+			[
+				"sell",
+				"sell"
+			],
+			[
+				"aud",
+				"audio_duration"
+			],
+			[
+				"_aud",
+				"_audio_init"
+			],
+			[
+				"mo",
+				"modelValue"
+			],
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"row",
+				"row_num"
+			],
+			[
+				"retur",
+				"return_msg"
+			],
+			[
+				"ret",
+				"return_msg"
+			],
+			[
+				"reg",
+				"reg_array"
+			],
+			[
+				"po",
+				"postData"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"ca",
+				"callback"
+			],
+			[
+				"li",
+				"link_array"
+			],
+			[
+				"edi",
+				"edit_array"
+			],
+			[
+				"chan",
+				"change_password"
+			],
+			[
+				"regis",
+				"register_array"
+			],
+			[
+				"user_",
+				"user_fullname"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"A",
+				"A_num"
+			],
+			[
+				"su",
+				"sum1"
+			],
+			[
+				"up",
+				"update_array"
+			],
+			[
+				"err",
+				"error_msg"
+			],
+			[
+				"inse",
+				"insert_array"
+			],
+			[
+				"sql",
+				"sql_update"
+			],
+			[
+				"uer",
+				"user_data"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"_se",
+				"_SESSION"
+			],
+			[
+				"ful",
+				"full_name"
+			],
+			[
+				"fu",
+				"full_name"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"se",
+				"_SESSION"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"link",
+				"link_array"
+			],
+			[
+				"lin",
+				"link_array"
+			],
+			[
+				"nps",
+				"nps_1"
+			],
+			[
+				"acv",
+				"acvn_rank"
+			],
+			[
+				"ass",
+				"assisted"
+			],
+			[
+				"agen",
+				"agent_stack_rank"
+			],
+			[
+				"IDU",
+				"IDU_template"
+			],
+			[
+				"ID",
+				"IDU_template"
+			],
+			[
+				"temp",
+				"template_description"
+			],
+			[
+				"templa",
+				"template_name"
+			],
+			[
+				"teml",
+				"template_json"
+			],
+			[
+				"te",
+				"templates"
+			],
+			[
+				"templates",
+				"template_json"
+			],
+			[
+				"at",
+				"attending"
+			],
+			[
+				"case",
+				"caseRecord"
+			],
+			[
+				"delega",
+				"delegate_btn"
+			],
+			[
+				"templ",
+				"template_object"
+			],
+			[
+				"fo",
+				"formData"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"remo",
+				"removeList"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"PRI",
+				"print_r"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"fr",
+				"frmTD"
+			],
+			[
+				"tem",
+				"temp_val"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"TEM",
+				"template_values"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"template",
+				"template_json"
+			],
+			[
+				"db",
+				"dbquerytxt"
+			],
+			[
+				"template_desc",
+				"template_description"
+			],
+			[
+				"ser",
+				"serializeToArray"
+			],
+			[
+				"acvn",
+				"acvn"
+			],
+			[
+				"icon",
+				"icon_class"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"bigg",
+				"bigger-140"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"ic",
+				"icon_class"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"ico",
+				"icon_type"
+			],
+			[
+				"tab",
+				"tab_content"
+			],
+			[
+				"date",
+				"date_ext"
+			],
+			[
+				"show",
+				"showLoader"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/assets/css/login-style.css",
+			"settings":
+			{
+				"buffer_size": 2658,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Access.php",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/support_clinic/html/profile.html",
+			"settings":
+			{
+				"buffer_size": 114914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/support_clinic/html/form-elements.html",
+			"settings":
+			{
+				"buffer_size": 97752,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/TownController.php",
+			"settings":
+			{
+				"buffer_size": 2176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1962,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/RestaurantController.php",
+			"settings":
+			{
+				"buffer_size": 1944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 1921,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1952,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/auth/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 9153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/navbar.blade.php",
+			"settings":
+			{
+				"buffer_size": 2915,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/admin/locations.blade.php",
+			"settings":
+			{
+				"buffer_size": 10315,
+				"line_ending": "Windows",
+				"name": "@extends('base')"
+			}
+		},
+		{
+			"file": "resources/views/admin/cuisine.blade.php",
+			"settings":
+			{
+				"buffer_size": 8448,
+				"line_ending": "Windows",
+				"name": "cuisine.blade.php"
+			}
+		},
+		{
+			"file": "resources/views/admin/restaurant.blade.php",
+			"settings":
+			{
+				"buffer_size": 13712,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"command_palette":
+	{
+		"height": 282.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"compre",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"jso",
+				"Pretty JSON: JSON 2 XML"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"liqu",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"jason",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pret",
+				"Pretty JSON: JSON 2 XML"
+			],
+			[
+				"PRETY",
+				"Pretty JSON: Validate"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"liq",
+				"Set Syntax: HTML Liquid"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Wrap in try { … } catch (…) { … }"
+			],
+			[
+				"con",
+				"Convert Case: Upper Case"
+			],
+			[
+				"Package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: \\",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/tothemenu/resources/views/layouts/head.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/page.blade.php",
+		"/C/xampp/htdocs/tothemenu/css/style.css",
+		"/C/xampp/htdocs/tothemenu/resources/views/admin/town.blade.php",
+		"/C/xampp/htdocs/tothemenu/app/Http/helpers.php",
+		"/C/xampp/htdocs/tothemenu/app/Http/Controllers/CuisineController.php",
+		"/C/xampp/htdocs/tothemenu/app/Http/Controllers/CuisinesController.php",
+		"/C/xampp/htdocs/tothemenu/app/Http/Controllers/AdminController.php",
+		"/C/xampp/htdocs/tothemenu/app/Http/Controllers/townController.php",
+		"/C/xampp/htdocs/tothemenu/docs/sections/basics/navbar.html",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_092722_create_towns_table.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_094658_create_restaurants_table.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_095703_update_cusine_and_town_in_counties.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_092657_create_cuisines_table.php",
+		"/C/xampp/htdocs/tothemenu/app/states.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_072504_update_counties.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_065230_cteate_states.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_31_072418_update_accesses.php",
+		"/C/xampp/htdocs/tothemenu/.env",
+		"/C/xampp/htdocs/tothemenu/vendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/ExtensionNotValidBundle.php",
+		"/C/xampp/htdocs/support_clinic/html/jquery-ui.html",
+		"/C/xampp/htdocs/support_clinic/html/buttons.html",
+		"/C/xampp/htdocs/tothemenu/resources/views/base.blade.php",
+		"/C/xampp/htdocs/support_clinic/html/elements.html",
+		"/C/xampp/htdocs/tothemenu/app/Http/routes.php",
+		"/C/xampp/htdocs/support_clinic/html/tables.html",
+		"/C/xampp/htdocs/ace_angular/public/views/pages/table.html",
+		"/C/xampp/htdocs/tothemenu/resources/views/layouts/sidebar.blade.php",
+		"/C/xampp/htdocs/tothemenu/app/counties.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_161047_create_counties.php",
+		"/C/xampp/htdocs/tothemenu/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/layouts/navbar.blade.php",
+		"/C/xampp/htdocs/tothemenu/public/components/angular-datatables/dist/plugins/tabletools/angular-datatables.tabletools.js",
+		"/C/xampp/htdocs/tothemenu/public/components/datatables/media/js/dataTables.bootstrap.js",
+		"/C/xampp/htdocs/tothemenu/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/county.blade.php",
+		"/C/xampp/htdocs/tothemenu/composer.json",
+		"/C/xampp/htdocs/tothemenu/app/Http/helper.php",
+		"/C/xampp/htdocs/tothemenu/vendor/symfony/console/Helper/Helper.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/admin/index.blade.php",
+		"/C/xampp/htdocs/tothemenu/app/Access_level.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/layouts/page-navbar.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/restaurant.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/home.blade.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_120953_update_access_value.php",
+		"/C/xampp/htdocs/tothemenu/app/Access_value.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_090816_create_access_levels.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_090906_create_access_values.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_081746_create_accesses.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_080911_create_access.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_29_010502_adding_access_level.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_28_165102_adding_access_to_users.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/auth/passwords/reset.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/auth/passwords/email.blade.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_065603_update_req_access_icon.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_065449_add_access_icon_for_user_lvel.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_064600_update_req_access_value.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_065306_update_req_access_icon.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_064731_creat_user_level.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_063915_creat_user_level.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_042026_create_access.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_063433_create_req_access_value.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_055737_update_create_access.php",
+		"/C/xampp/htdocs/tothemenu/database/migrations/2016_12_30_042554_creat_access_level.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/auth/emails/password.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/registration.blade.php",
+		"/C/xampp/htdocs/tothemenu/resources/views/login.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/auth/passwords/reset.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/layouts/page-navbar.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/layouts/navbar.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/layouts/breadcrumbs.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/county.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/layouts/sidebar-place.blade.php",
+		"/C/xampp/htdocs/directory/public/assets/css/login-style.css",
+		"/C/xampp/htdocs/directory/resources/views/restaurant.blade.php",
+		"/C/xampp/htdocs/directory/.env",
+		"/C/xampp/htdocs/ace/app/Http/Controllers/Auth/PasswordController.php",
+		"/C/xampp/htdocs/directory/app/Http/Controllers/Auth/AuthController.php",
+		"/C/xampp/htdocs/directory/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/C/xampp/htdocs/directory/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/C/xampp/htdocs/directory/app/User.php",
+		"/C/xampp/htdocs/directory/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/C/xampp/htdocs/directory/config/auth.php",
+		"/C/xampp/htdocs/directory/app/Http/Controllers/AdminController.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_28_164809_delete_access.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_28_164944_delete_access.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_28_164228_adding_access_to_userx.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_28_164016_adding_access_to_user.php",
+		"/C/xampp/htdocs/directory/database/migrations/2016_12_28_163558_adding_access_to_user.php",
+		"/C/xampp/htdocs/directory/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/ace/app/Http/Controllers/Auth/AuthController.php",
+		"/C/xampp/htdocs/ace/app/Http/Controllers/LoginController.php",
+		"/C/xampp/htdocs/directory/app/Http/Controllers/LoginController.php",
+		"/C/xampp/htdocs/directory/resources/views/page.blade.php",
+		"/C/xampp/htdocs/ace/resources/views/layouts/navbar.blade.php",
+		"/C/xampp/htdocs/sample_ci/application/controllers/home.php",
+		"/C/xampp/htdocs/ace/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/directory/resources/views/layouts/footer.blade.php",
+		"/C/xampp/htdocs/directory/public/docs/sections/basics/footer.html",
+		"/C/xampp/htdocs/ace/resources/views/login.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/about.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/layouts/head.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/login.blade.php",
+		"/C/xampp/htdocs/directory_old/resources/views/home.blade.php",
+		"/C/xampp/htdocs/directory/app/Http/routes.php",
+		"/C/xampp/htdocs/directory_old/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/xampp/htdocs/directory/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/xampp/htdocs/ace/app/Http/routes.php",
+		"/C/xampp/htdocs/directory/config/database.php",
+		"/C/xampp/htdocs/directory/public/.htaccess",
+		"/C/xampp/htdocs/directory/app/Http/Controllers/RestaurantController.php",
+		"/C/xampp/htdocs/directory/app/Http/Controllers/PageController.php",
+		"/C/xampp/htdocs/directory/composer.json",
+		"/C/xampp/htdocs/ace/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/C/xampp/htdocs/directory/vendor/laravel/framework/src/Illuminate/Foundation/Application.php",
+		"/C/xampp/htdocs/directory/app/Http/Controllers/Auth/PasswordController.php",
+		"/C/xampp/htdocs/directory/resources/views/contact.blade.php",
+		"/C/xampp/htdocs/directory/resources/views/blank-page.blade.php",
+		"/C/xampp/htdocs/directory/vendor/symfony/console/Helper/HelperInterface.php",
+		"/C/xampp/htdocs/directory/vendor/symfony/console/Helper/Helper.php",
+		"/C/xampp/htdocs/directory/public/assets/ImageMapster/examples/usa.html",
+		"/C/xampp/htdocs/sample_ci/html/widgets.html",
+		"/C/xampp/htdocs/directory/resources/views/layouts/sidebar-featured.blade.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\directory",
+			"C:\\xampp\\htdocs\\naevette\\wp-content\\themes\\naevette",
+			"C:\\xampp\\htdocs\\naevette\\wp-centent\\themes\\naevette",
+			"C:\\xampp\\htdocs\\naevette",
+			"C:\\xampp\\htdocs\\mvp",
+			"C:\\xampp\\htdocs\\portal.mybrainfitlife.com\\public_html\\new\\protected\\views",
+			"C:\\xampp\\htdocs\\portal.mybrainfitlife.com\\public_html\\new",
+			"C:\\xampp\\htdocs\\sales",
+			"C:\\xampp\\htdocs\\sample",
+			"C:\\xampp\\htdocs\\ace_angular\\public\\views",
+			"C:\\xampp\\htdocs\\ace_angular\\public",
+			"C:\\xampp\\htdocs\\ace_angular",
+			"C:\\xampp\\htdocs\\ace",
+			"C:\\xampp\\htdocs\\laravel",
+			"C:\\xampp\\htdocs\\sample_ci",
+			"C:\\xampp\\htdocs\\support_clinic",
+			"C:\\xampp\\htdocs\\sample_ci",
+			"C:\\xampp\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsupervery_new",
+			"\\\\172.28.2.120\\htdocs\\attreports2",
+			"\\\\172.28.2.120\\htdocs\\attreprots2",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsupervery_new",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsupervery",
+			"\\\\172.28.2.120\\htdocs\\procnew_klaus",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsupervery",
+			"\\\\172.28.2.120\\htdocs\\ems_site",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsupervery",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsuper",
+			"\\\\172.28.2.120\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\procnewverynewsuper",
+			"\\\\172.28.2.120\\htdocs\\procnewverynew",
+			"\\\\172.28.2.120\\htdocs\\procnewvery",
+			"\\\\172.28.2.120\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\procnewvery",
+			"\\\\172.28.2.120\\htdocs\\procurement",
+			"\\\\172.28.2.120\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\reports",
+			"\\\\172.28.2.120\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\admin_tools",
+			"\\\\172.28.2.120\\htdocs\\support_clinic",
+			"\\\\172.28.2.120\\htdocs\\admin_tools",
+			"C:\\xampp\\htdocs\\ems_site",
+			"\\\\172.28.2.120\\htdocs\\ems_site",
+			"\\\\172.28.2.120\\htdocs\\admin_tools",
+			"\\\\172.28.2.120\\htdocs\\activity_logger",
+			"C:\\xampp\\htdocs\\admin_tools",
+			"C:\\xampp\\htdocs\\adelyn\\wp-content\\themes\\adelyn",
+			"C:\\xampp\\htdocs\\ems_site",
+			"C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\roots",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gender",
+			"m-right-3",
+			"form-field-select-3",
+			"cho",
+			"choose",
+			"chosen-select",
+			"chose",
+			"class=\"\"",
+			"m-left-20",
+			"m-left-10",
+			"input-lg",
+			" bigger-120",
+			"m-left-5",
+			"m-left-10",
+			"m-left-20",
+			"h-space-10",
+			"<label>",
+			"12\">",
+			"12",
+			"text-area",
+			"col-sm-12",
+			" col-sm-12",
+			"?",
+			"RestaurantController",
+			"Cuisine",
+			"Cuisine'",
+			"cuisines'",
+			"admin",
+			"Cuisine::",
+			"CuisineController",
+			"town",
+			"Town(",
+			"town",
+			"'Town",
+			"/towns",
+			"town",
+			"Town",
+			"townN",
+			"town",
+			"$town",
+			"town_",
+			"Towns:",
+			"$towns",
+			"Towns:",
+			"Town",
+			"town",
+			"Town",
+			"town_",
+			"Town",
+			"town",
+			"Town",
+			"town",
+			"Town",
+			"town",
+			"Town",
+			"town",
+			"Town",
+			"-town",
+			"town",
+			"Town",
+			"town",
+			"locations",
+			"form-town-remove",
+			"county",
+			"County",
+			"county",
+			"county_message",
+			"county",
+			"County",
+			"county",
+			"count",
+			"County",
+			"$county",
+			"count",
+			"county",
+			"locations",
+			"$county",
+			"m-town-ed",
+			"edit_town_name",
+			"edit_town_id",
+			"orm-town-edit",
+			"dialog-edit-town",
+			"county",
+			"form-county",
+			"County",
+			"county",
+			"County",
+			"county",
+			"County",
+			"county",
+			"County",
+			"county",
+			"County",
+			"county",
+			"AdminController",
+			"County",
+			"editCounty",
+			"addCounty",
+			"count",
+			"county_name",
+			"county",
+			"County",
+			"menus",
+			"dialog-add-county",
+			"btn_add_county",
+			"county->",
+			"county",
+			"counties",
+			"count",
+			"town",
+			"email",
+			"integer",
+			"$county",
+			"id",
+			"link",
+			"Link",
+			"county_link",
+			"Link",
+			"county_link",
+			"token",
+			"role=\"form\"",
+			"edit",
+			"edit_county_id",
+			"name",
+			"id=\"county",
+			"county",
+			"county_name",
+			"edit_id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\n.search-tool-top .input-icon{",
+			"physicalExam\n.search-tool-top .input-icon{",
+			"\n.search-tool-top .input-icon{",
+			"\n			<div class=\"form-group\">\n				<div class=\"col-sm-6\">\n					<label class=\"col-sm-3 control-label no-padding-right\" data-label=\"field\">Systolic</label>\n\n					<div class=\"col-sm-9\">\n						<input name=\"vital_sign_systolic\" data-label=\"value\" data-label=\"value\" class=\"form-control\" type=\"text\">\n					</div>\n				</div>\n				<div class=\"col-sm-6\">\n					<label class=\"col-sm-3 control-label no-padding-right\" data-label=\"field\">Systolic</label>\n\n					<div class=\"col-sm-9\">\n						<input name=\"vital_sign_systolic\" data-label=\"value\" data-label=\"value\" class=\"form-control\" type=\"text\">\n					</div>\n				</div>\n			</div>",
+			"",
+			"req_access",
+			"href=\"../assets/",
+			"');\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/assets/css/login-style.css",
+					"settings":
+					{
+						"buffer_size": 2658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Access.php",
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/support_clinic/html/profile.html",
+					"settings":
+					{
+						"buffer_size": 114914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28924,
+								28924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15656.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/support_clinic/html/form-elements.html",
+					"settings":
+					{
+						"buffer_size": 97752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/Controllers/TownController.php",
+					"settings":
+					{
+						"buffer_size": 2176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 1962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1579,
+								1579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/Controllers/RestaurantController.php",
+					"settings":
+					{
+						"buffer_size": 1944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								878,
+								878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Http/Controllers/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 1921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1844,
+								1844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1331.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "resources/views/auth/login.blade.php",
+					"settings":
+					{
+						"buffer_size": 9153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8533,
+								8533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2063.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "resources/views/layouts/navbar.blade.php",
+					"settings":
+					{
+						"buffer_size": 2915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2706,
+								2706
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "resources/views/admin/locations.blade.php",
+					"settings":
+					{
+						"buffer_size": 10315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								967
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@extends('base')",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/views/admin/cuisine.blade.php",
+					"settings":
+					{
+						"buffer_size": 8448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"auto_name": "cuisine.blade.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "resources/views/admin/restaurant.blade.php",
+					"settings":
+					{
+						"buffer_size": 13712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12138,
+								12138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4127.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.46977400046,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 92.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"style.css",
+				"public/assets/css/style.css"
+			],
+			[
+				"layout/hea",
+				"resources/views/layouts/head.blade.php"
+			],
+			[
+				"page.",
+				"resources/views/page.blade.php"
+			],
+			[
+				".css",
+				"css/style.css"
+			],
+			[
+				"http/he",
+				"app/Http/helpers.php"
+			],
+			[
+				"retaurantco",
+				"app/Http/Controllers/RestaurantController.php"
+			],
+			[
+				"navba",
+				"resources/views/layouts/navbar.blade.php"
+			],
+			[
+				"nav",
+				"docs/sections/basics/navbar.html"
+			],
+			[
+				"login.bla",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"login.b",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"http/",
+				"app/Http/helpers.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"env",
+				"vendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/ExtensionNotValidBundle.php"
+			],
+			[
+				"head",
+				"resources/views/layouts/head.blade.php"
+			],
+			[
+				"base",
+				"resources/views/base.blade.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"sideba",
+				"resources/views/layouts/sidebar.blade.php"
+			],
+			[
+				"coun",
+				"app/counties.php"
+			],
+			[
+				"http/helper",
+				"app/Http/helpers.php"
+			],
+			[
+				"helpers",
+				"vendor/laravel/framework/src/Illuminate/Support/helpers.php"
+			],
+			[
+				"tabletools",
+				"public/components/angular-datatables/dist/plugins/tabletools/angular-datatables.tabletools.js"
+			],
+			[
+				"datatables.js",
+				"public/components/datatables/media/js/dataTables.bootstrap.js"
+			],
+			[
+				"sidebad",
+				"resources/views/layouts/sidebar.blade.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"helper",
+				"vendor/laravel/framework/src/Illuminate/Support/helpers.php"
+			],
+			[
+				"hel",
+				"vendor/symfony/console/Helper/Helper.php"
+			],
+			[
+				"contr",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"navbar",
+				"resources/views/layouts/navbar.blade.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"admincon",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"lo",
+				"public/assets/css/login-style.css"
+			],
+			[
+				"registration",
+				"resources/views/registration.blade.php"
+			],
+			[
+				"login.blade",
+				"resources/views/auth/login.blade.php"
+			],
+			[
+				"login.p",
+				"resources/views/login.blade.php"
+			],
+			[
+				"logins",
+				"public/assets/css/login-style.css"
+			],
+			[
+				"authenticatable",
+				"vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"auth",
+				"config/auth.php"
+			],
+			[
+				"registersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"authenticatesandregistersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"login-style",
+				"public/assets/css/login-style.css"
+			],
+			[
+				"footer",
+				"resources/views/layouts/footer.blade.php"
+			],
+			[
+				"loginc",
+				"app/Http/Controllers/LoginController.php"
+			],
+			[
+				"pagec",
+				"app/Http/Controllers/PageController.php"
+			],
+			[
+				"help",
+				"vendor/laravel/framework/src/Illuminate/Foundation/helpers.php"
+			],
+			[
+				"database",
+				"config/database.php"
+			],
+			[
+				"head.b",
+				"resources/views/layouts/head.blade.php"
+			],
+			[
+				"res",
+				"app/Http/Controllers/RestaurantController.php"
+			],
+			[
+				"restaurant",
+				"app/Http/Controllers/RestaurantController.php"
+			],
+			[
+				"bread",
+				"public/assets/css/less/breadcrumbs.less"
+			],
+			[
+				"style",
+				"public/build/files/style.css"
+			],
+			[
+				"control",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"-home",
+				"wp-content/themes/naevette/template-home.php"
+			],
+			[
+				"naeve/header",
+				"wp-content/themes/naevette/templates/header.php"
+			],
+			[
+				"header",
+				"wp-includes/theme-compat/header.php"
+			],
+			[
+				"contact",
+				"wp-content/themes/naevette/templates/contact_form.php"
+			],
+			[
+				"contac",
+				"wp-content/plugins/contact-form-7/includes/contact-form.php"
+			],
+			[
+				"main.js",
+				"wp-content/themes/naevette/assets/scripts/main.js"
+			],
+			[
+				"train",
+				"wp-content/themes/naevette/template-training.php"
+			],
+			[
+				"template-en",
+				"wp-content/themes/naevette/template-enterprise.php"
+			],
+			[
+				"sample",
+				"wp-content/themes/naevette/template-sample.php"
+			],
+			[
+				"button",
+				"wp-includes/css/buttons.css"
+			],
+			[
+				"owl.car",
+				"wp-content/themes/naevette/vendor/owl.carousel/owl-carousel/owl.carousel.css"
+			],
+			[
+				"footer.c",
+				"wp-content/themes/naevette/assets/styles/layouts/_footer.scss"
+			],
+			[
+				"pages.cs",
+				"wp-content/themes/naevette/assets/styles/layouts/_pages.scss"
+			],
+			[
+				"main.",
+				"wp-content/themes/naevette/assets/scripts/main.js"
+			],
+			[
+				"main.css",
+				"wp-content/themes/naevette/dist/styles/main.css"
+			],
+			[
+				"functio",
+				"wp-content/themes/naevette/functions.php"
+			],
+			[
+				"malifest",
+				"wp-content/themes/naevette/node_modules/bs-recipes/manifest.json"
+			],
+			[
+				"malife",
+				"wp-content/themes/naevette/node_modules/asset-builder/lib/Manifest.js"
+			],
+			[
+				"manif",
+				"wp-content/themes/naevette/assets/manifest.json"
+			],
+			[
+				"training",
+				"wp-content/themes/naevette/template-training.php"
+			],
+			[
+				"footer.php",
+				"wp-content/themes/naevette/templates/footer.php"
+			],
+			[
+				"bower",
+				"wp-content/themes/naevette/bower.json"
+			],
+			[
+				"bower.js",
+				"wp-content/themes/naevette/bower.json"
+			],
+			[
+				"locksmith",
+				"snippets/locksmith.liquid"
+			],
+			[
+				"the",
+				"layout/theme.liquid"
+			],
+			[
+				"check",
+				"assets/checkout.css.liquid"
+			],
+			[
+				"checko",
+				"assets/checkout.css.liquid"
+			],
+			[
+				"mobile-navigation",
+				"snippets/mobile-navigation.liquid"
+			],
+			[
+				"wpurp-public-forc",
+				"devamen.tanaamen.com/wp-content/plugins/wp-ultimate-recipe-premium/core/assets/wpurp-public-forced.css"
+			],
+			[
+				"main.php",
+				"protected/views/layouts/main.php"
+			],
+			[
+				"ace.css",
+				"ace/public/assets/css/ace.css"
+			],
+			[
+				"loginapp",
+				"ace/public/assets/angular/loginApp.js"
+			],
+			[
+				"login-st",
+				"ace/public/assets/css/login-style.css"
+			],
+			[
+				"logincont",
+				"ace/app/Http/Controllers/LoginController.php"
+			],
+			[
+				"login_view",
+				"support_clinic/application/views/login_view.php"
+			],
+			[
+				"login.blad",
+				"ace/resources/views/login.blade.php"
+			],
+			[
+				"login_vi",
+				"support_clinic/application/views/login_view.php"
+			],
+			[
+				".htaccess",
+				"ace_angular/public/.htaccess"
+			],
+			[
+				"login-s",
+				"ace/public/assets/css/login-style.css"
+			],
+			[
+				"main",
+				"ace_angular/public/js/controllers/main.js"
+			],
+			[
+				"sidebar.bla",
+				"ace/resources/views/layouts/sidebar.blade.php"
+			],
+			[
+				"sidebar",
+				"ace/public/assets/css/less/sidebar.less"
+			],
+			[
+				"head.php",
+				"admin_tools/application/views/templates/head.php"
+			],
+			[
+				"model.php",
+				"laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"user_inf",
+				"laravel/resources/views/pages/user_info.blade.php"
+			],
+			[
+				"user_",
+				"laravel/app/User_info.php"
+			],
+			[
+				"note.php",
+				"laravel/app/Note.php"
+			],
+			[
+				"create_notes",
+				"laravel/database/migrations/2016_06_12_004457_create_notes_table.php"
+			],
+			[
+				"card",
+				"laravel/app/Card.php"
+			],
+			[
+				".html",
+				"support_clinic/dummy.html"
+			],
+			[
+				"",
+				"laravel/app/Http/routes.php"
+			],
+			[
+				"config/app",
+				"laravel_test/config/app.php"
+			],
+			[
+				"purc",
+				"procnewverynewsupervery_new/purchasing_inbox.php"
+			],
+			[
+				"sys_temp",
+				"procnewverynewsupervery_new/_model/sys_template_methods.js"
+			],
+			[
+				"purchasi",
+				"procnewverynewsupervery_new/purchasing_inbox.php"
+			],
+			[
+				"panebu",
+				"procnewverynewsupervery_new/_libsqf/qfPaneBuilder.js"
+			],
+			[
+				"pane",
+				"procnewverynewsupervery_new/_libsqf/qfPaneBuilder.js"
+			],
+			[
+				"ui.c",
+				"procnewverynewsupervery_new/_libsqf/ui.css"
+			],
+			[
+				"sys_askfeatures_settings",
+				"procnewverynewsupervery_new/_model/sys_askfeatures_settings.php"
+			],
+			[
+				"userm",
+				"procnewverynewsupervery_new/_model/userMyAccount_attributes.js"
+			],
+			[
+				"myaccou",
+				"procnewverynewsupervery_new/_model/userMyAccount_methods.js"
+			],
+			[
+				"catalogsh",
+				"procnewverynewsupervery_new/_json/catalogs/catalogsH_select_PDO.php"
+			],
+			[
+				"catalogsf_sele",
+				"procnewverynewsupervery_new/_json/catalogs/catalogsF_select_PDO.php"
+			],
+			[
+				"catalogsh_sele",
+				"procnewverynewsupervery_new/_json/catalogs/catalogsH_select_PDO.php"
+			],
+			[
+				"jav",
+				"ems_site/system/libraries/Javascript.php"
+			],
+			[
+				"catalogsh_mysql",
+				"procnewverynewsupervery_new/_model/catalogsH_MySQL.php"
+			],
+			[
+				"catalogsh_select_pdo",
+				"procnewverynewsupervery_new/_json/catalogs/catalogsH_select_PDO.php"
+			],
+			[
+				"requisi",
+				"procnewverynewsupervery_new/_model/requisitions(inbox)_methods.js"
+			],
+			[
+				"qfpan",
+				"procnewverynewsupervery_new/_libsqf/qfPaneBuilder.js"
+			],
+			[
+				"sys_te",
+				"procnewverynewsupervery_new/_model/sys_template_methods.js"
+			],
+			[
+				"sys_template_mysql",
+				"procnewverynewsupervery_new/_model/sys_template_MySQL.php"
+			],
+			[
+				"template_list_pdo",
+				"procnewverynewsupervery_new/_json/configure/template_list_PDO.php"
+			],
+			[
+				"sys_configure_templates.php",
+				"procnewverynewsupervery_new/sys_configure_templates.php"
+			],
+			[
+				"requ",
+				"procnewverynewsupervery_new/_model/requisitions(inbox)_businessRules.js"
+			],
+			[
+				"sys",
+				"procnewverynewsupervery_new/_model/sys_template.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true
+}

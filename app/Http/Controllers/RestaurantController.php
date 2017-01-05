@@ -14,14 +14,28 @@ class RestaurantController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct($page = ''){
+        $page = ( isset($page) && $page != '' ) ? $page : ( isset($_GET['county']) ) ? $_GET['county'] : '';
+        $data['breadcrumbs'] = breadcrumbs(array('county'=>$page));
+        $data['county'] = $page;
+        $this->data = $data;
+    }
+
     public function index($id)
     {
-        $county = isset($_GET['county']) ? $_GET['county'] : '';
-        $breadcrumbs = breadcrumbs(array(
-            'county' => $county,
-            'page' => $id
-        ));
-        return view('restaurant',compact('breadcrumbs','county'));
+        return view('restaurant',$this->data);
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show()
+    {
+        return view('admin/restaurant',$this->data);
     }
 
     /**
@@ -41,17 +55,6 @@ class RestaurantController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
     {
         //
     }

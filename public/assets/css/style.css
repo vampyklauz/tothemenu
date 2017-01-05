@@ -5,6 +5,8 @@
 .m-x-auto{ margin: 0 auto; }
 .m-top-40{ margin-top: 40px; }
 .m-top-20{ margin-top: 20px; }
+.m-right-3{ margin-right: 3px; }
+.m-right-20{ margin-right: 20px; }
 .no-m-h{ margin-left: 0; margin-right: 0; }
 
 /* PADDING */
@@ -15,6 +17,7 @@
 .d-block{ display: block; }
 .d-inline-block{ display: inline-block; }
 .capitalize{ text-transform: capitalize; }
+.border-bottom{ border-bottom: 1px dotted #e2e2e2; margin-bottom: 8px; }
 
 /* ========== Page Sidebar ============== */
 .page-sidebar ul{ 
@@ -90,6 +93,10 @@
 .restaurant-owl{ min-width: 350px; max-width: 400px; }
 .restaurant-owl .owl-prev{ left: -50px; position: absolute; top: 40% }
 .restaurant-owl .owl-next{ right: -50px; position: absolute; top: 40% }
+
+.textarea-2{
+	height: 91px;
+}
 
 .map-wrap img{ max-width: 100% }
 

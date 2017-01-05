@@ -5,7 +5,7 @@
         <!-- /section:basics/sidebar.mobile.toggle -->
         <div class="navbar-header pull-left">
             <!-- #section:basics/navbar.layout.brand -->
-            <a href="<?php echo url('/'); ?>" class="navbar-brand">
+            <a href="{{ url('/') }}" class="navbar-brand">
                 <small>
                     <i class="fa fa-leaf"></i>
                     To The Menu
@@ -26,9 +26,9 @@
                 <li class="dropdown-modal">
                      <div class="main-menu">
                         <ul>
-                            <li><a href="<?php echo url('/'); ?>">Home</a></li>
-                            <li><a href="<?php page_url('about',$county); ?>">About us</a></li>
-                            <li><a href="<?php page_url('contact',$county); ?>">Contact</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
+                            <li><a href="{{ page_url('about',$county) }}">About us</a></li>
+                            <li><a href="{{ page_url('contact',$county) }}">Contact</a></li>
                         </ul>
                     </div>
                 </li>
@@ -36,7 +36,7 @@
                 <!-- #section:basics/navbar.user_menu -->
                 <li class="light-blue dropdown-modal">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="<?php echo url('assets/avatars/user.jpg'); ?>" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="{{ url('assets/avatars/user.jpg') }}" alt="Jason's Photo" />
                         <span class="user-info">
                             <small>Welcome,</small>
                             Klaus

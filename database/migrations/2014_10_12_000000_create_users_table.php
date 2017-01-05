@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddingAccessLevel extends Migration
+class CreateUsersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -16,12 +16,12 @@ class AddingAccessLevel extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('password');
+            $table->string('password', 60);
             $table->string('access');
             $table->string('access_level');
+            $table->tinyInteger('status');
             $table->rememberToken();
             $table->timestamps();
-            $table->tinyInteger('status')->default(1);
         });
     }
 
@@ -32,8 +32,6 @@ class AddingAccessLevel extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-        });
+        Schema::drop('users');
     }
 }

@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class DeleteAccess extends Migration
+class CreateAccessValues extends Migration
 {
     /**
      * Run the migrations.
@@ -12,8 +12,11 @@ class DeleteAccess extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('access');
+        Schema::create('access_values', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('value_name',125);
+            $table->string('value_icon',125);
+            $table->timestamps();
         });
     }
 
@@ -24,8 +27,6 @@ class DeleteAccess extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            //
-        });
+        Schema::drop('access_values');
     }
 }

@@ -19,7 +19,6 @@
             <div class="main-content">
                 <div class="main-content-inner">
                     <!-- #section:basics/content.breadcrumbs -->
-                    @include('layouts.breadcrumbs')
                     <!-- /section:basics/content.breadcrumbs -->
                     <div class="page-content">
                         <!-- #section:settings.box -->
@@ -48,17 +47,17 @@
         <!-- page specific plugin scripts -->
         @yield('scripts')
         <!-- ace scripts -->
-        <script src="<?php echo url('assets/js/src/ace.js'); ?>"></script>
-        <script src="<?php echo url('assets/js/src/ace.basics.js'); ?>"></script>
-        <script src="<?php echo url('assets/js/src/ace.scrolltop.js'); ?>"></script>
-        <script src="<?php echo url('assets/js/src/ace.sidebar.js'); ?>"></script>
-        <script src="<?php echo url('assets/js/src/ace.sidebar-scroll-1.js'); ?>"></script>
-        <script src="<?php echo url('assets/js/src/ace.submenu-hover.js'); ?>"></script>
+        <script src="{{ url('assets/js/src/ace.js') }}"></script>
+        <script src="{{ url('assets/js/src/ace.basics.js') }}"></script>
+        <script src="{{ url('assets/js/src/ace.scrolltop.js') }}"></script>
+        <script src="{{ url('assets/js/src/ace.sidebar.js') }}"></script>
+        <script src="{{ url('assets/js/src/ace.sidebar-scroll-1.js') }}"></script>
+        <script src="{{ url('assets/js/src/ace.submenu-hover.js') }}"></script>
         
-        <script src="<?php echo url('docs/assets/js/rainbow.js'); ?>"></script>
-        <script src="<?php echo url('docs/assets/js/language/generic.js'); ?>"></script>
-        <script src="<?php echo url('docs/assets/js/language/html.js'); ?>"></script>
-        <script src="<?php echo url('docs/assets/js/language/css.js'); ?>"></script>
-        <script src="<?php echo url('docs/assets/js/language/javascript.js'); ?>"></script>
+        <script src="{{ url('docs/assets/js/rainbow.js') }}"></script>
+        <script src="{{ url('docs/assets/js/language/generic.js') }}"></script>
+        <script src="{{ url('docs/assets/js/language/html.js') }}"></script>
+        <script src="{{ url('docs/assets/js/language/css.js') }}"></script>
+        <script src="{{ url('docs/assets/js/language/javascript.js') }}"></script>
     </body>
 </html>

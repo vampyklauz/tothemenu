@@ -10,52 +10,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
         <!-- bootstrap & fontawesome -->
-        <link rel="stylesheet" href="assets/css/bootstrap.css" />
-        <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="<?php echo url('assets/css/bootstrap.css'); ?>" />
+        <link rel="stylesheet" href="<?php echo url('components/font-awesome/css/font-awesome.css'); ?>" />
 
         <!-- text fonts -->
-        <link rel="stylesheet" href="assets/css/ace-fonts.css" />
+        <link rel="stylesheet" href="<?php echo url('assets/css/ace-fonts.css'); ?>" />
 
         <!-- ace styles -->
-        <link rel="stylesheet" href="assets/css/ace.css" />
+        <link rel="stylesheet" href="<?php echo url('assets/css/ace.css'); ?>" />
 
         <!--[if lte IE 9]>
-            <link rel="stylesheet" href="assets/css/ace-part2.css" />
+            <link rel="stylesheet" href="<?php echo url('assets/css/ace-part2.css'); ?>" />
         <![endif]-->
-        <link rel="stylesheet" href="assets/css/ace-rtl.css" />
+        <link rel="stylesheet" href="<?php echo url('assets/css/ace-rtl.css'); ?>" />
 
-        <link rel="stylesheet" href="assets/css/login-style.css" />
+        <link rel="stylesheet" href="<?php echo url('assets/css/login-style.css'); ?>" />
         <!--[if lte IE 9]>
-          <link rel="stylesheet" href="assets/css/ace-ie.css" />
+          <link rel="stylesheet" href="<?php echo url('assets/css/ace-ie.css'); ?>" />
         <![endif]-->
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
         <!--[if lt IE 9]>
-        <script src="assets/js/html5shiv.js"></script>
-        <script src="assets/js/respond.js"></script>
+        <script src="<?php echo url('assets/js/html5shiv.js'); ?>"></script>
+        <script src="<?php echo url('assets/js/respond.js'); ?>"></script>
         <![endif]-->
 
         <!-- basic scripts -->
 
         <!--[if !IE]> -->
         <script type="text/javascript">
-            if('ontouchstart' in document.documentElement) document.write("<script src='components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'>"+"<"+"/script>");
+            if('ontouchstart' in document.documentElement) document.write("<script src='<?php echo url('components/_mod/jquery.mobile.custom/jquery.mobile.custom.js'); ?>'>"+"<"+"/script>");
         </script>
 
         <!-- <![endif]-->
 
         <!--[if IE]>
         <script type="text/javascript">
-         window.jQuery || document.write("<script src='assets/js/jquery1x.js'>"+"<"+"/script>");
+         window.jQuery || document.write("<script src='<?php echo url('assets/js/jquery1x.js'); ?>'>"+"<"+"/script>");
         </script>
         <![endif]-->
         <script type="text/javascript">
-            if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+            if('ontouchstart' in document.documentElement) document.write("<script src='<?php echo url('assets/js/jquery.mobile.custom.js'); ?>'>"+"<"+"/script>");
         </script>
 
-        <script src="assets/js/angular-v1.5.7.js"></script>
-        <script src="assets/angular/loginApp.js"></script>
+        <script src="<?php echo url('assets/js/angular-v1.5.7.js'); ?>"></script>
+        <script src="<?php echo url('assets/angular/loginApp.js'); ?>"></script>
 
     </head>
 
@@ -127,14 +127,14 @@
                                         <div class="toolbar clearfix">
                                             <hr>
                                             <div>
-                                                <a href="forgot_password" class="pull-left">
+                                                <a href="<?php echo url('password/reset'); ?>" class="pull-left">
                                                     <i class="ace-icon fa fa-arrow-left"></i>
                                                     I forgot my password
                                                 </a>
                                             </div>
 
                                             <div>
-                                                <a href="register" class="pull-right">
+                                                <a href="<?php echo url('register'); ?>" class="pull-right">
                                                     I want to register
                                                     <i class="ace-icon fa fa-arrow-right"></i>
                                                 </a>
@@ -150,7 +150,7 @@
                 </div><!-- /.row -->
             </div><!-- /.main-content -->
         </div><!-- /.main-container -->
-        <script src="components/jquery/dist/jquery.js"></script>
-        <script src="components/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="<?php echo url('components/jquery/dist/jquery.js'); ?>"></script>
+        <script src="<?php echo url('components/jquery-validation/dist/jquery.validate.js'); ?>"></script>
     </body>
 </html>

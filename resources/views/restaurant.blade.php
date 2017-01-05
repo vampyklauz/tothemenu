@@ -14,9 +14,9 @@
 	<div class="col-md-7">
 		
 		<div class="restaurant-owl m-x-auto owl-carousel owl-theme">
-		    <div class="item"><img src="<?php echo url('uploads/restaurants/100_computer_training.jpg'); ?>" alt=""></div>
-		    <div class="item"><img src="<?php echo url('uploads/restaurants/download3.jpg'); ?>" alt=""></div>
-		    <div class="item"><img src="<?php echo url('uploads/restaurants/shutterstock_387274792.jpg'); ?>" alt=""></div>
+		    <div class="item"><img src="{{ url('uploads/restaurants/100_computer_training.jpg') }}" alt=""></div>
+		    <div class="item"><img src="{{ url('uploads/restaurants/download3.jpg') }}" alt=""></div>
+		    <div class="item"><img src="{{ url('uploads/restaurants/shutterstock_387274792.jpg') }}" alt=""></div>
 		</div>
 
 		<div class="profile-user-info">
@@ -154,7 +154,7 @@
 		</div>
 
 		<div class="map-wrap m-top-40 p-h-15">
-			<img src="<?php echo url('uploads/restaurants/map.png'); ?>" alt="">
+			<img src="{{ url('uploads/restaurants/map.png') }}" alt="">
 		</div>
 	</div>
 

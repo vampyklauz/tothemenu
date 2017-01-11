@@ -57,4 +57,4 @@ Route::any('register/restaurant','RestaurantController@show');
 Route::any('register/addRestaurant','RestaurantController@addRestaurant');
 Route::any('register/editRestaurant','RestaurantController@editRestaurant');
 Route::any('register/removeRestaurant','RestaurantController@removeRestaurant');
-
+Route::any('mypage', 'PageController@myPage');

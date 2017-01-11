@@ -101,4 +101,10 @@ class PageController extends Controller
     {
         //
     }
+    public function myPage(){
+        $page = ( isset($_GET['county']) ) ? $_GET['county'] : '';
+        $breadcrumbs = breadcrumbs(array('county'=>$page));
+        $county = $page;
+        return view('mypage',compact('breadcrumbs','county'));
+    }
 }

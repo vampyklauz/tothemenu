@@ -29,6 +29,13 @@ class PageController extends Controller
         return view('about',compact('breadcrumbs','county'));
     }
 
+    public function myPage(){
+        $page = ( isset($_GET['county']) ) ? $_GET['county'] : '';
+        $breadcrumbs = breadcrumbs(array('county'=>$page));
+        $county = $page;
+        return view('mypage',compact('breadcrumbs','county'));
+    }
+
     public function contact(){
         $page = ( isset($_GET['county']) ) ? $_GET['county'] : '';
         $breadcrumbs = breadcrumbs(array('county'=>$page));

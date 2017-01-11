@@ -1,3 +1,4 @@
+
 @extends('page')
 
 @section('links')
@@ -12,7 +13,7 @@
 
 
     <div class="col-md-7 m-top-40">
-
+        <h1>Title Here</h1>
         <div class="m-x-auto" style="width:370px; border:0; overflow: hidden;">
             <img style="width:370px;border:0;" id="usa_image" src="assets/ImageMapster/examples/images/new-jersey-county-map.gif" usemap="#usa" >
         </div>

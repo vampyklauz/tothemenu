@@ -16,6 +16,7 @@ Route::get('/', 'HomeController@index');
 Route::any('page/{page}', 'PageController@index');
 
 Route::any('about', 'PageController@about');
+Route::any('mypage', 'PageController@myPage');
 Route::any('contact', 'PageController@contact');
 
 

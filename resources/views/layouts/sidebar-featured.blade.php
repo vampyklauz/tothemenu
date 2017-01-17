@@ -4,7 +4,7 @@
 			<!-- #section:custom/widget-box.options -->
 			<div class="widget-header">
 				<h5 class="widget-title bigger lighter">
-					<!-- <i class="ace-icon fa fa-table"></i>
+					FEATURED RESTAURANTS<!-- <i class="ace-icon fa fa-table"></i>
 					Tables & Colors -->
 				</h5>
 			</div>
@@ -12,7 +12,8 @@
 			<!-- /section:custom/widget-box.options -->
 			<div class="widget-body">
 				<div class="widget-main no-padding">
-					xxx
+					  Name 
+
 				</div>
 			</div>
 		</div>

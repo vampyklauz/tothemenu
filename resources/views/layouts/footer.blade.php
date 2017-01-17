@@ -3,7 +3,7 @@
         <!-- #section:basics/footer -->
         <div class="footer-content">
             <span class="bigger-120">
-                <span class="blue bolder">Menu</span>
+                <span class="blue bolder">www.tothemenu.com</span>
                 Directory &copy; 2016-2017
             </span>
 

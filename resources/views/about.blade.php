@@ -19,7 +19,7 @@
 		<h5> We are here to help you find all the restaurants, that are in your local areas. 
 		<br>Your Favorite ones, as well as the ones you didn't know were there.</br>
 		<br>Check out the Restaurants and their menus. </br>
-		<br> Bringing you newest restaurants in your area, everyday. </br>
+		<br> Bringing you the newest restaurants in your area, everyday. </br>
 		<br> If you don't see a menu of your local restaurant, shoot us out an e-mail with some basic information "Name of the Restaurant" "Phone Number" "Town" we will try to add it, at the earliest.</br> 
 		 </h5>
 

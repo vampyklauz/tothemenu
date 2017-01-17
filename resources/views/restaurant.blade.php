@@ -21,7 +21,7 @@
 
 		<div class="profile-user-info">
 			<div class="profile-info-row">
-				<div class="profile-info-name"> Restaurant Name </div>
+				<div class="profile-info-name"> Restaurant Name  </div>
 
 				<div class="profile-info-value">
 					<span>Amore ViVa</span>

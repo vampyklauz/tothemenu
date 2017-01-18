@@ -49,7 +49,7 @@ class AdminController extends Controller
 	    		$request->session()->flash('SuccessMessage', 'County added successfully');
 	    	}
 	    }
-	    return redirect('admin/locations');
+	    return redirect('admin/locations/'.$county->state_id);
     }
 
     public function editCounty(Request $request){
@@ -58,7 +58,7 @@ class AdminController extends Controller
     		if( $county->county_name != $request->county_name ){
     			if( $this->countyNameExist($request->county_name) ){
 					$request->session()->flash('ErrorMessage', 'County already exist');
-					return redirect('admin/locations');
+					return redirect('admin/locations/1');
     			}else{
     				$county->county_name = $request->county_name; // Asign new county name
     			}
@@ -73,7 +73,7 @@ class AdminController extends Controller
     	}else{
     		$request->session()->flash('ErrorMessage', 'Please try again, Something went wrong!');
     	}
-    	return redirect('admin/locations');
+    	return redirect('admin/locations/1');
     }
 
     public function removeCounty(Request $request){
@@ -87,7 +87,7 @@ class AdminController extends Controller
     	}else{
     		$request->session()->flash('ErrorMessage', 'Please try again, Something went wrong!');
     	}
-    	return redirect('admin/locations');
+    	return redirect('admin/locations/1');
     }
 
     public function countyNameExist($name){

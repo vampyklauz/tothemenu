@@ -11,7 +11,7 @@
 	@include('layouts.sidebar-place')
 
 
-	<div class="col-md-7">
+	<div class="col-md-7 p-vh-30">
 		<div class="page-header">
 			<h1 class="blue"> 
 				Restaurant registration
@@ -24,6 +24,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<form id="registration_form" class="form-horizontal big-input" action="{{ url('register/addRestaurant') }}"  method="POST" role="form">
+				{{ csrf_field() }}
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="form-group no-margin-bottom">
@@ -97,7 +98,7 @@
 								</div>
 								<div class="col-xs-6">
 									<label class="control-label">County</label>
-									<input class="col-xs-12" validate="true" name="country" type="text">
+									<input class="col-xs-12" validate="true" name="county" type="text">
 								</div>
 							</div>
 
@@ -125,11 +126,11 @@
 							<div class="form-group no-margin-bottom">
 								<div class="col-xs-6">
 									<label class="control-label">Cuisine</label>
-									<input class="col-xs-12" validate="true" name="first_name" type="text">
+									<input class="col-xs-12" validate="true" name="cuisine" type="text">
 								</div>
 								<div class="col-xs-6">
 									<label class="control-label">Features</label>
-									<input class="col-xs-12" validate="true" name="first_name" type="text">
+									<input class="col-xs-12" validate="true" name="features" type="text">
 								</div>
 							</div>
 							<div class="form-group no-margin-bottom">
@@ -167,19 +168,19 @@
 								<label class="control-label">Alcohol</label>
 								<div class="col-xs-12 has-checkbox no-padding">
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="alcohol" value="No" type="checkbox">
+										<input class="ace" validate="true" name="alcohol[]" value="No" type="checkbox">
 										<span class="lbl bigger-100"> No</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="alcohol" value="Wine Bar" type="checkbox">
+										<input class="ace" validate="true" name="alcohol[]" value="Wine Bar" type="checkbox">
 										<span class="lbl bigger-100"> Wine Bar</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="alcohol" value="Full Bar" type="checkbox">
+										<input class="ace" validate="true" name="alcohol[]" value="Full Bar" type="checkbox">
 										<span class="lbl bigger-100"> Full Bar</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="alcohol" value="BYOB" type="checkbox">
+										<input class="ace" validate="true" name="alcohol[]" value="BYOB" type="checkbox">
 										<span class="lbl bigger-100"> BYOB</span>
 									</label>									
 								</div>
@@ -188,23 +189,23 @@
 								<label class="control-label">Dress Code</label>
 								<div class="col-xs-12 has-checkbox no-padding">
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="dress_code" value="Casual" type="checkbox">
+										<input class="ace" validate="true" name="dress_code[]" value="Casual" type="checkbox">
 										<span class="lbl bigger-100"> Casual</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="dress_code" value="Dress to Impress" type="checkbox">
+										<input class="ace" validate="true" name="dress_code[]" value="Dress to Impress" type="checkbox">
 										<span class="lbl bigger-100"> Dress to Impress</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="dress_code" value="Chic" type="checkbox">
+										<input class="ace" validate="true" name="dress_code[]" value="Chic" type="checkbox">
 										<span class="lbl bigger-100"> Chic</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="dress_code" value="Jacket Required" type="checkbox">
+										<input class="ace" validate="true" name="dress_code[]" value="Jacket Required" type="checkbox">
 										<span class="lbl bigger-100"> Jacket Required</span>
 									</label>	
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="dress_code" value="Formal" type="checkbox">
+										<input class="ace" validate="true" name="dress_code[]" value="Formal" type="checkbox">
 										<span class="lbl bigger-100"> Formal</span>
 									</label>									
 								</div>
@@ -213,23 +214,23 @@
 								<label class="control-label">Payment Types</label>
 								<div class="col-xs-12 has-checkbox no-padding">
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="payment" value="Cash Only" type="checkbox">
+										<input class="ace" validate="true" name="payment[]" value="Cash Only" type="checkbox">
 										<span class="lbl bigger-100"> Cash Only</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="payment" value="Amex" type="checkbox">
+										<input class="ace" validate="true" name="payment[]" value="Amex" type="checkbox">
 										<span class="lbl bigger-100"> Amex</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="payment" value="Discover" type="checkbox">
+										<input class="ace" validate="true" name="payment[]" value="Discover" type="checkbox">
 										<span class="lbl bigger-100"> Discover</span>
 									</label>
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="payment" value="Mastercard" type="checkbox">
+										<input class="ace" validate="true" name="payment[]" value="Mastercard" type="checkbox">
 										<span class="lbl bigger-100"> Mastercard</span>
 									</label>	
 									<label class="m-right-20">
-										<input class="ace" validate="true" name="payment" value="Visa" type="checkbox">
+										<input class="ace" validate="true" name="payment[]" value="Visa" type="checkbox">
 										<span class="lbl bigger-100"> Visa</span>
 									</label>									
 								</div>
@@ -238,36 +239,36 @@
 								<label class="control-label">Restaurant Hours</label>
 								<div class="col-xs-12 has-checkbox no-padding">
 									<label alt="Sunday">
-										<input class="ace" validate="true" name="hours" value="Sun" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Sun" type="checkbox">
 										<span class="lbl bigger-100"> Sun</span>
 									</label>
 									<label class="m-right-3">
-										<input class="ace" validate="true" name="hours" value="Mon" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Mon" type="checkbox">
 										<span class="lbl bigger-100"> Mon</span>
 									</label>
 									<label class="m-right-3">
-										<input class="ace" validate="true" name="hours" value="Tue" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Tue" type="checkbox">
 										<span class="lbl bigger-100"> Tue</span>
 									</label>
 									<label class="m-right-3">
-										<input class="ace" validate="true" name="hours" value="Wed" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Wed" type="checkbox">
 										<span class="lbl bigger-100"> Wed</span>
 									</label>
 									<label class="m-right-3">
-										<input class="ace" validate="true" name="hours" value="Thu" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Thu" type="checkbox">
 										<span class="lbl bigger-100"> Thu</span>
 									</label>
 									<label class="m-right-3">
-										<input class="ace" validate="true" name="hours" value="Fri" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Fri" type="checkbox">
 										<span class="lbl bigger-100"> Fri</span>
 									</label>
 									<label class="m-right-3">
-										<input class="ace" validate="true" name="hours" value="Sat" type="checkbox">
+										<input class="ace" validate="true" name="hours[]" value="Sat" type="checkbox">
 										<span class="lbl bigger-100"> Sat</span>
 									</label>										
 								</div>
 							</div>
-							<div class="form-group no-margin-bottom">
+							<!-- <div class="form-group no-margin-bottom">
 								<div class="col-xs-6">
 									<label class="control-label">Hot Menus</label>
 									<input class="col-xs-12" validate="true" name="first_name" type="text">
@@ -276,7 +277,7 @@
 									<label class="control-label">Hot Menu Date</label>
 									<input class="col-xs-12" validate="true" name="first_name" type="text">
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<div class="clearfix form-actions col-lg-12 no-padding-left align-right">

@@ -11,6 +11,7 @@
 
 /* PADDING */
 .p-h-15{ margin-right: 15px; margin-left: 15px; }
+.p-vh-30{ padding-left: 30px; padding-right: 30px; }
 
 /* EFFECT */
 .ls-no-style{ list-style: none; }

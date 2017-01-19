@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Restaurants;
 
 class RestaurantController extends Controller
 {
@@ -35,7 +36,7 @@ class RestaurantController extends Controller
      */
     public function show()
     {
-        return view('admin/restaurant',$this->data);
+        return view('admin/restaurant-registrations',$this->data);
     }
 
     /**
@@ -43,9 +44,35 @@ class RestaurantController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function addRestaurant(Request $request)
     {
-        //
+        $restaurant = new Restaurants;
+        $restaurant->name = $request->input('name');
+        $restaurant->address = $request->input('address');
+        $restaurant->state = $request->input('state');
+        $restaurant->county = $request->input('county');
+        $restaurant->city = $request->input('city');
+        $restaurant->zip = $request->input('zip');
+        $restaurant->phone = $request->input('phone');
+        $restaurant->fax = $request->input('fax');
+        $restaurant->website = $request->input('website');
+        $restaurant->owners_name = $request->input('owners_name');
+        $restaurant->service = json_encode( $request->input('service') );
+        $restaurant->alcohol = json_encode( $request->input('alcohol') );
+        $restaurant->dress_code = json_encode( $request->input('dress_code') );
+        $restaurant->payment = json_encode( $request->input('payment') );
+        $restaurant->restaurant_hour = json_encode( $request->input('hours') );
+
+        if( !$restaurant->save() ){
+            App::abort(500, 'Error');
+        }
+
+        return redirect('register/addSuccess');
+    }
+
+    public function addSuccess()
+    {
+        return view('admin/add_success',$this->data);
     }
 
     /**

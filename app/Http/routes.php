@@ -34,6 +34,7 @@ Route::any('admin', 'AdminController@index');
 Route::any('admin/locations/{state}','AdminController@locations');
 
 Route::any('admin/cuisine','AdminController@cuisine');
+Route::any('admin/restaurants','AdminController@restaurants');
 
 // Admin Functions
 Route::any('admin/addCounty','AdminController@addCounty');
@@ -58,4 +59,5 @@ Route::any('register/restaurant','RestaurantController@show');
 Route::any('register/addRestaurant','RestaurantController@addRestaurant');
 Route::any('register/editRestaurant','RestaurantController@editRestaurant');
 Route::any('register/removeRestaurant','RestaurantController@removeRestaurant');
+Route::any('register/addSuccess','RestaurantController@addSuccess');
 Route::any('mypage', 'PageController@myPage');

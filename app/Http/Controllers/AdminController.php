@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\counties;
+use App\Restaurants;
 use App\states;
 use Illuminate\Support\Facades\Auth;
 
@@ -30,6 +31,11 @@ class AdminController extends Controller
 
     public function cuisine(){
         return view('admin/cuisine');
+    }
+
+    public function restaurants(){
+        $restaurants = Restaurants::where('status',0)->get();
+        return view('admin/restaurants',compact('restaurants'));
     }
 
     public function addCounty(Request $request){

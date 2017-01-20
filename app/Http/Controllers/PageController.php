@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Counties;
+use App\Restaurants;
 use App\Http\Controllers\Controller;
 
 class PageController extends Controller
@@ -18,7 +20,9 @@ class PageController extends Controller
     {
         $breadcrumbs = breadcrumbs(array('county'=>$page));
         $county = $page;
-        return view('county',compact('breadcrumbs','county'));
+        $counties = Counties::where('state_id',1)->where('status',0)->get();
+        $restaurants = Restaurants::where('county',$page)->where('status',0)->get();
+        return view('county',compact('breadcrumbs','county','counties','restaurants'));
     }
 
     public function about(){
@@ -26,14 +30,16 @@ class PageController extends Controller
         $page = ( isset($_GET['county']) ) ? $_GET['county'] : '';
         $breadcrumbs = breadcrumbs(array('county'=>$page));
         $county = $page;
-        return view('about',compact('breadcrumbs','county'));
+        $counties = Counties::where('state_id',1)->where('status',0)->get();
+        return view('about',compact('breadcrumbs','county','counties'));
     }
 
     public function contact(){
         $page = ( isset($_GET['county']) ) ? $_GET['county'] : '';
         $breadcrumbs = breadcrumbs(array('county'=>$page));
         $county = $page;
-        return view('contact',compact('breadcrumbs','county'));
+        $counties = Counties::where('state_id',1)->where('status',0)->get();
+        return view('contact',compact('breadcrumbs','county','counties'));
     }
 
     /**

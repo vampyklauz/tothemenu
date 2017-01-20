@@ -36,7 +36,13 @@ class RestaurantController extends Controller
      */
     public function show()
     {
-        return view('admin/restaurant-registrations',$this->data);
+        return view('admin/restaurant-registration',$this->data);
+    }
+
+    public function Restaurant_info($id)
+    {  
+        $this->data['restaurant'] = Restaurants::find($id);
+        return view('admin/restaurant-info',$this->data);
     }
 
     /**
@@ -92,9 +98,9 @@ class RestaurantController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function editRestaurant(Request $request)
     {
-        //
+        print_r($request->input());exit();
     }
 
     /**

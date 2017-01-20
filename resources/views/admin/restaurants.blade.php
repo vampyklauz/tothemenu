@@ -62,8 +62,8 @@
 					</thead>
 						@foreach ($restaurants as $restaurant)
 						<tr data-all="{{ $restaurant }}">
-							<td>{{ $restaurant->id }}</td
->							<td>{{ $restaurant->name }}</td>
+							<td>{{ $restaurant->id }}</td>
+							<td>{{ $restaurant->name }}</td>
 							<td>{{ $restaurant->county }}</td>
 							<td>{{ $restaurant->cuisine }}</td>
 							<td>{{ $restaurant->phone }}</td>
@@ -209,7 +209,7 @@
 			bAutoWidth: false,
 			"aoColumns": [
 			  { "bSortable": false },
-			  null, null, null,
+			  null, null, null, null, null,
 			  { "bSortable": false }
 			],
 			"aaSorting": [],
@@ -271,33 +271,7 @@
 			// Fill form with data from table
 			var trow = $(this).closest('tr');
 			var data = trow.data('all');
-			$('#edit_county_id').val(data.id);
-			$('#edit_county_name').val(data.county_name);
-			$('#edit_county_link').val(data.county_link);
-			$('#edit_county_code').val(data.county_code);
-
-			var dialog = $( "#dialog-edit-county" ).removeClass('hide').dialog({
-				modal: true,
-				title: "<div class='widget-header widget-header-small blue'><h4 class='smaller'><i class='ace-icon fa fa-pencil'></i> Edit County</h4></div>",
-				title_html: true,
-				width: 400,
-				buttons: [ 
-					{
-						text: "Cancel",
-						"class" : "btn btn-minier",
-						click: function() {
-							$( this ).dialog( "close" ); 
-						} 
-					},
-					{
-						text: "Edit",
-						"class" : "btn btn-primary btn-minier",
-						click: function() {
-							$('#form-county-edit').submit();
-						} 
-					}
-				]
-			});
+			window.location = "{{ url('admin/restaurants') }}"+"/"+data.id;
 		});
 
 		// Remove modal Functions

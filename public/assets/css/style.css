@@ -103,3 +103,4 @@
 
 /* ======= OVERIDE =========== */
 .profile-info-name{ width: 140px; }
+.profile-multi-item p{ display: inline; }

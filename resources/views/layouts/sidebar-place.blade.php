@@ -1,3 +1,4 @@
+
 <div class="page-sidebar col-xs-2 no-padding">
 	<div class="col-xs-12 widget-container-col no-padding">
 		<div class="widget-box widget-color-blue">
@@ -13,8 +14,10 @@
 			<div class="widget-body">
 				<div class="widget-main no-padding">
 					<ul class="county m-top-20">
-						<li><a href="page/Atlantic" data-state="AX">Atlantic</a></li>
-						<li><a href="page/Bergen" data-state="BN">Bergen</a></li>
+						@foreach ($counties as $location)
+							<li><a href="{{ url('page/')."/".$location->id }}" data-state="{{ $location->county_code }}">{{ $location->county_name }}</a></li>
+						@endforeach
+						<!-- <li><a href="page/Bergen" data-state="BN">Bergen</a></li>
 						<li><a href="page/Burlington" data-state="BU">Burlington</a></li>
 						<li><a href="page/Camden" data-state="CN">Camden</a></li>
 						<li><a href="page/Cape May" data-state="CM">Cape May</a></li>
@@ -33,7 +36,7 @@
 						<li><a href="page/Somerset" data-state="ST">Somerset</a></li>
 						<li><a href="page/SX" data-state="SX">Sussex</a></li>
 						<li><a href="page/Union" data-state="UN">Union</a></li>
-						<li><a href="page/Warren" data-state="WN">Warren</a></li>
+						<li><a href="page/Warren" data-state="WN">Warren</a></li> -->
 					</ul>
 				</div>
 			</div>

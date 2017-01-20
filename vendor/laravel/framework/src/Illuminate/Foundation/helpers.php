@@ -1,5 +1,7 @@
 <?php
 
+use App\Counties;
+
 use Illuminate\Support\Str;
 use Illuminate\Support\HtmlString;
 use Illuminate\Container\Container;
@@ -639,10 +641,11 @@ if (! function_exists('breadcrumbs')) {
      */
     function breadcrumbs($path)
     {
+        $county = Counties::find($path['county']);
         $url = '';
 
-        $url .= ( isset($path['county']) ) ? '<li><a class="capitalize" href="'.url("page/".$path['county']).'">'.$path["county"].'</a></li>' : '';
-        $url .= ( isset($path['page']) ) ? '<li>'.$path["page"].'</li>' : '';
+        $url .= ( isset($county->county_name) ) ? '<li><a class="capitalize" href="'.url("page/".$county->county_name).'">'.$county->county_name.'</a></li>' : '';
+        $url .= ( isset($path['page']) ) ? '<li>'.$path['page'].'</li>' : '';
 
         return $url;
     }

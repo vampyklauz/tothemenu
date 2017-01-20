@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Counties;
 use App\Http\Controllers\Controller;
 use App\Restaurants;
 
@@ -20,11 +21,13 @@ class RestaurantController extends Controller
         $page = ( isset($page) && $page != '' ) ? $page : ( isset($_GET['county']) ) ? $_GET['county'] : '';
         $data['breadcrumbs'] = breadcrumbs(array('county'=>$page));
         $data['county'] = $page;
+        $data['counties'] = $counties = Counties::where('state_id',1)->where('status',0)->get();
         $this->data = $data;
     }
 
     public function index($id)
     {
+        $this->data['restaurant'] = Restaurants::find($id);
         return view('restaurant',$this->data);
     }
 

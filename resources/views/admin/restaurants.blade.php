@@ -62,8 +62,8 @@
 					</thead>
 						@foreach ($restaurants as $restaurant)
 						<tr data-all="{{ $restaurant }}">
-							<td>{{ $restaurant->id }}</td
->							<td>{{ $restaurant->name }}</td>
+							<td>{{ $restaurant->id }}</td>
+							<td>{{ $restaurant->name }}</td>
 							<td>{{ $restaurant->county }}</td>
 							<td>{{ $restaurant->cuisine }}</td>
 							<td>{{ $restaurant->phone }}</td>

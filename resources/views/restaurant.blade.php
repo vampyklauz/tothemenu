@@ -24,7 +24,7 @@
 				<div class="profile-info-name"> Restaurant Name  </div>
 
 				<div class="profile-info-value">
-					<span>Amore ViVa</span>
+					<span>{{ $restaurant->name }}</span>
 				</div>
 			</div>
 
@@ -33,8 +33,8 @@
 
 				<div class="profile-info-value">
 					<i class="fa fa-map-marker light-orange bigger-110"></i>
-					<span>123 main street N.brunswick</span>
-					<span>NJ 07728</span>
+					<span> {{ $restaurant->zip.' '.$restaurant->address }}</span>
+					<span>{{ $restaurant->city }}</span>
 				</div>
 			</div>
 
@@ -42,7 +42,7 @@
 				<div class="profile-info-name"> Contact info </div>
 
 				<div class="profile-info-value">
-					<span>732-345-3522</span>
+					<span>{{ $restaurant->phone }}</span>
 				</div>
 			</div>
 
@@ -50,7 +50,7 @@
 				<div class="profile-info-name"> Website </div>
 
 				<div class="profile-info-value">
-					<span>www.amoreviva.com</span>
+					<span>{{ $restaurant->website }}</span>
 				</div>
 			</div>
 
@@ -69,8 +69,7 @@
 						<div class="profile-info-name"> Cuisine </div>
 
 						<div class="profile-info-value">
-							<span>Italian</span>
-							<span>Pizza</span>
+							<span>{{ $restaurant->cuisine }}</span>
 						</div>
 					</div>
 
@@ -78,7 +77,9 @@
 						<div class="profile-info-name"> Open for </div>
 
 						<div class="profile-info-value">
-							<span>Lunch &amp; Dinner</span>
+							@foreach(json_decode($restaurant->service,true) as $service)
+								<span>{{ $service }}</span>
+							@endforeach
 						</div>
 					</div>
 
@@ -86,7 +87,9 @@
 						<div class="profile-info-name"> Alcohol </div>
 
 						<div class="profile-info-value">
-							<span>BYOB</span>
+							@foreach(json_decode($restaurant->alcohol,true) as $alcohol)
+								<span>{{ $alcohol }}</span>
+							@endforeach
 						</div>
 					</div>
 
@@ -94,7 +97,9 @@
 						<div class="profile-info-name"> Dress Code </div>
 
 						<div class="profile-info-value">
-							<span>Casual</span>
+							@foreach(json_decode($restaurant->dress_code,true) as $dress_code)
+								<span>{{ $dress_code }}</span>
+							@endforeach
 						</div>
 					</div>
 
@@ -102,8 +107,9 @@
 						<div class="profile-info-name"> Payment Types </div>
 
 						<div class="profile-info-value">
-							<span>Cash</span>
-							<span>ALL CC</span>
+							@foreach(json_decode($restaurant->payment,true) as $payment)
+								<span>{{ $payment }}</span>
+							@endforeach
 						</div>
 					</div>
 				</div>
